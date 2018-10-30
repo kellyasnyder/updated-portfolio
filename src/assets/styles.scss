@@ -1,0 +1,35 @@
+/* CSS RESET */
+@import './partials/reset';
+
+/* GALLERY */
+@import './partials/gallery';
+
+/* PAGE HEADER */
+@import './partials/header';
+
+/* INDEX PAGE */
+@import './partials/index';
+
+@import './partials/main';
+
+/* MEDIA QUERIES */
+@import './partials/mediaqueries';
+
+/* UNIVERSAL STYLES */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', monospace, Arial, Helvetica, sans-serif;
+    color: #575757;
+    margin: 0 auto;
+    background-color: #fcfcfc;
+    width: 60%;
+    font-size: 1em;
+    line-height: 1.3em;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-weight: 200;
+}

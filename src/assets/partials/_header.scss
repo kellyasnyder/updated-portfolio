@@ -1,0 +1,43 @@
+.header {
+    display: grid;
+    padding-top: 75px;
+    padding-bottom: 25px;
+    transition: all 0.4s ease;
+    margin: 0 auto;
+    grid-template-columns: 83% 17%;
+    min-height: 18vh;
+    
+    .header__logo {
+        .header__h1 {
+            font-size: 2em;
+            font-weight: 300;
+        }
+    }
+
+    .header__details {
+        font-size: .7em;
+        letter-spacing: 1.5px;
+        color: #8cb0b5;
+        font-weight: 400;
+    }
+
+    .header__ul {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+
+        .header__li {
+            display: inline;
+
+            a:link, a:visited {
+                text-decoration: none;
+                color: #8cb0b5;
+                transition: 0.3s ease-in-out;
+            }
+
+            a:hover {
+                color: #575757;
+            }
+        }
+    }
+}
