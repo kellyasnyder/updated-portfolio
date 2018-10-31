@@ -1,7 +1,30 @@
 .contact {
     line-height: 2em;
 
-    .contact__h2 {
+    .contact__h3 {
         font-weight: 350;
+        font-size: 1.6em;
+    }
+
+    label {
+        display: block;
+        margin: 10px 0;
+    }
+
+    input {
+        width: 100%;
+        border: 1px solid #eee;
+        padding: 15px;
+    }
+
+    textarea {
+        width: 100%;
+        border: 1px solid #eee;
+        height: 20vh;
+        padding: 15px;
+    }
+
+    .submit {
+        margin: 5vh 0;
     }
 }

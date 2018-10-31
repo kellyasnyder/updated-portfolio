@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
     return (
         <main className="contact">
-            <h2 className="contact__h2">Let's chat.</h2>
+            <h3 className="contact__h3">Let's chat.</h3>
             <form name= "contact" action="#" method="get">
                 <label for="name">Name *</label>
                 <input type="text" id="name" name="name" placeholder="Name" />
@@ -16,7 +16,7 @@ const Contact = () => {
                 
                 <label for="comments">Message *</label>
                 <textarea name="comments" id="comments" placeholder="Questions, comments, concerns, etc..." />
-                <input class="submit" type="submit" name="Submit" value="submit" onClick="submitForm(event)" />
+                <input className="submit" type="submit" name="Submit" value="submit" />
             </form>
         </main>
     )

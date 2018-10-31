@@ -5,7 +5,7 @@ const Main = () => {
         <div className="main">
             <section className="main__section">
                 <figure className="main__figure">
-                    <a href="http://localhost:3000/">
+                    <a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">
                         <img src="/images/nandamade.png" alt="Nandamade eCommerce site" className="main__img" />
                     </a>
                     <figcaption className="main__figcap">
@@ -13,7 +13,7 @@ const Main = () => {
                     </figcaption>
                 </figure>
                 <figure className="main__figure">
-                    <a href="https://original-portfolio.netlify.com/">
+                    <a href="https://original-portfolio.netlify.com/" target="_blank" rel="noopener noreferrer">
                         <img src="/images/portfolio.png" alt="Original portfolio site" className="main__img" />
                     </a>
                     <figcaption className="main__figcap">
@@ -21,7 +21,7 @@ const Main = () => {
                     </figcaption>
                 </figure>
                 <figure className="main__figure">
-                    <a href="https://css-challenges.netlify.com/">
+                    <a href="https://css-challenges.netlify.com/" target="_blank" rel="noopener noreferrer">
                         <img src="/images/css.png" alt="CSS Challenges" className="main__img" />
                     </a>
                     <figcaption className="main__figcap">
@@ -29,7 +29,7 @@ const Main = () => {
                     </figcaption>
                 </figure>
                 <figure className="main__figure">
-                    <a href="https://mymove.netlify.com/">
+                    <a href="https://mymove.netlify.com/" target="_blank" rel="noopener noreferrer">
                         <img src="/images/mymove.png" alt="MyMove Sketch file recreation" className="main__img" />
                     </a>
                     <figcaption className="main__figcap">
@@ -37,7 +37,7 @@ const Main = () => {
                     </figcaption>
                 </figure>
                 <figure className="main__figure">
-                    <a href="https://blois.netlify.com/">
+                    <a href="https://blois.netlify.com/" target="_blank" rel="noopener noreferrer">
                         <img src="/images/blois.png" alt="Blois one day website" className="main__img" />
                     </a>
                     <figcaption className="main__figcap">
@@ -45,7 +45,7 @@ const Main = () => {
                     </figcaption>
                 </figure>
                 <figure className="main__figure">
-                    <a href="https://reactjs-guessing-game.netlify.com/">
+                    <a href="https://reactjs-guessing-game.netlify.com/" target="_blank" rel="noopener noreferrer">
                         <img src="/images/reactguess.png" alt="React guessing game" className="main__img" />
                     </a>
                     <figcaption className="main__figcap">
