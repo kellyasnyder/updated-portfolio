@@ -3,7 +3,36 @@
         width: 90%;
     }
 
+    .header {
+        padding-top: 5px;
+        grid-template-areas:
+            "links links links links"
+            "main main main main";
+
+        .header__ul {
+            justify-content: space-evenly;
+        }
+
+        .header__hr {
+            display: block;
+            margin: 5vh 0;
+        }
+    }
+
     .main__figure {
         width: 100%;
+    }
+
+    .about__h3 {
+        display: none;
+    }
+
+    .footer {
+        margin-bottom: 10vh;
+
+        .footer__ul {
+            width: 30%;
+            margin-right: 3vw;
+        }
     }
 } 

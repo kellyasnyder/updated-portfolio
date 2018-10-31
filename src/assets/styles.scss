@@ -1,19 +1,16 @@
 /* CSS RESET */
 @import './partials/reset';
 
-/* GALLERY */
-@import './partials/gallery';
-
 /* PAGE HEADER */
 @import './partials/header';
 
-/* INDEX PAGE */
-@import './partials/index';
-
+/* WORK PAGE */
 @import './partials/main';
 
+/* ABOUT PAGE */
 @import './partials/about';
 
+/* FOOTER */
 @import './partials/footer';
 
 /* UNIVERSAL STYLES */
@@ -22,11 +19,11 @@
 }
 
 body {
-    font-family: 'Montserrat', monospace, Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     color: #575757;
     margin: 0 auto;
     background-color: #fcfcfc;
-    width: 60%;
+    width: 70%;
     font-size: 1em;
     line-height: 1.3em;
     display: flex;

@@ -14,6 +14,7 @@ const Header = () => {
                     <li className="header__li"><NavLink to="/about">About</NavLink></li>
                     <li className="header__li"><NavLink to="/contact">Contact</NavLink></li>
                 </ul>
+                <hr className="header__hr" />
             </nav>
         </header>
     )

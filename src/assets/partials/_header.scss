@@ -4,10 +4,19 @@
     padding-bottom: 25px;
     transition: all 0.4s ease;
     margin: 0 auto;
-    grid-template-columns: 83% 17%;
+    grid-template-columns: repeat(4, 25% [col-start]);
     min-height: 18vh;
-    
+    grid-template-areas: 
+        "main main main links";
+
+    .header__hr {
+        display: none;
+        opacity: 0.3;
+    }
+
     .header__logo {
+        grid-area: main;
+
         .header__h1 {
             font-size: 2em;
             font-weight: 300;
@@ -15,6 +24,7 @@
     }
 
     .header__details {
+        grid-area: links;
         font-size: .7em;
         letter-spacing: 1.5px;
         color: #8cb0b5;

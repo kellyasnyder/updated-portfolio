@@ -1,13 +1,36 @@
 .main {
     width: 100%;
 
+    .main__h3 {
+        font-weight: 300;
+        font-size: 1.4em;
+        margin-top: 5vh;
+    }
+
+    .main__hr {
+        height: 1px;
+        opacity: 0.3;
+    }
+
     .main__section {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
 
-        .main__sub {
-            width: 31%;
+        .main__github {
+            font-weight: 350;
+            transition: 0.3s ease-in-out;
+            text-decoration: none;
+
+            &:link, &:visited {
+                text-decoration: none;
+                color: #575757;
+                transition: 0.3s ease-in-out;
+            }
+
+            &:hover {
+                color: #8cb0b5;
+            }
         }
 
         .main__figure {
@@ -28,6 +51,14 @@
                 font-size: .8em;
                 margin-bottom: 25px;
                 margin-top: 5px;
+            }
+        }
+
+        .main__sub {
+            width: 31%;
+
+            .main__h4 {
+                font-weight: 350;
             }
         }
     }
