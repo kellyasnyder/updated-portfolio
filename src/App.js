@@ -4,8 +4,8 @@ import './assets/styles.scss';
 import Header from './components/header';
 import Main from './components/main';
 import About from './components/about';
-import Gallery from './components/gallery';
 import Contact from './components/contact';
+import Footer from './components/footer';
 
 class App extends Component {
   render() {
@@ -22,6 +22,7 @@ class App extends Component {
           <Route name="Contact" exact path="/contact" render={props => (
             <Contact {...props} />
           )} />
+          <Footer />
         </div>
       </Router>
     );

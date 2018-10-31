@@ -1,27 +1,34 @@
 .main {
     width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
 
-    .main__figure {
-        width: 48%;
+    .main__section {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
 
-        .main__img {
-            width: 100%;
-            transition: 0.4s ease-in-out;
-
-            &:hover {
-                opacity: 0.8;
-            }
+        .main__sub {
+            width: 31%;
         }
 
-        .main__figcap {
-            text-align: center;
-            text-transform: uppercase;
-            font-size: .8em;
-            margin-bottom: 25px;
-            margin-top: 5px;
+        .main__figure {
+            width: 48%;
+
+            .main__img {
+                width: 100%;
+                transition: 0.4s ease-in-out;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+
+            .main__figcap {
+                text-align: center;
+                text-transform: uppercase;
+                font-size: .8em;
+                margin-bottom: 25px;
+                margin-top: 5px;
+            }
         }
     }
 }

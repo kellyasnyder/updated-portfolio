@@ -1,19 +1,9 @@
 @media only screen and (max-width: 600px) {
-    .icon {
-        display: none;
-    }
-
-    .headerlinks {
-        margin: 50px;
-        left: 0;
-    }
-
-    .main, .contact, footer p {
+    body {
         width: 90%;
     }
 
-    .gallery__column {
-        flex: 50%;
-        max-width: 50%;
+    .main__figure {
+        width: 100%;
     }
 } 

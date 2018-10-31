@@ -1,0 +1,24 @@
+.footer {
+    margin-bottom: 15vh;
+
+    .footer__ul {
+        display: flex;
+        width: 10%;
+        float: right;
+        justify-content: space-between;
+
+        .footer__li {
+            display: inline;
+        
+            .footer__icon {
+                width: 15px;
+                opacity: 0.6;
+                transition: 0.3s ease-in-out;
+            
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

@@ -12,8 +12,9 @@
 
 @import './partials/main';
 
-/* MEDIA QUERIES */
-@import './partials/mediaqueries';
+@import './partials/about';
+
+@import './partials/footer';
 
 /* UNIVERSAL STYLES */
 * {
@@ -33,3 +34,6 @@ body {
     min-height: 100vh;
     font-weight: 200;
 }
+
+/* MEDIA QUERIES */
+@import './partials/mediaqueries';
