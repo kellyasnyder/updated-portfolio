@@ -8,6 +8,12 @@
         grid-template-areas:
             "links links links links"
             "main main main main";
+        
+        .header__logo {
+            margin: auto;
+            text-align: center;
+            padding-bottom: 5px;
+        }
 
         .header__ul {
             justify-content: space-evenly;
@@ -15,7 +21,7 @@
 
         .header__hr {
             display: block;
-            margin: 5vh 0;
+            margin: 5vh 0 3vh 0;
         }
     }
 
